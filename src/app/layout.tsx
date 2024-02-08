@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+import { Providers } from "./providers";
 import Analytics from "~/components/Analytics";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
   title: "Third GPT - AI, GPT, ChatGPT导航网站",
   description: "Third GPT是一个导航网站，提供关于人工智能（AI）、GPT模型和ChatGPT的相关信息，为您探索AI世界提供便捷。",
@@ -32,7 +34,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div id="app">{children}</div>
+        <Providers>
+          <div id="app">
+            {children}
+          </div>
+        </Providers>
         <Analytics />
       </body>
     </html>

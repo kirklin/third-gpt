@@ -1,7 +1,11 @@
-export default function Home() {
+import Page from "./home";
+
+function Index() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello boot-next
-    </main>
+    <>
+      <Page />
+    </>
   );
 }
+
+export default Index;
