@@ -1,0 +1,116 @@
+[
+  {
+    "name": "热门AI应用",
+    "icon": "",
+    "sites": [
+      {
+        "name": "ChatGPT",
+        "description": "免费，中文，可生成文本、翻译语言、写不同类型的创意内容",
+        "url": "https://chatgpt.com/",
+        "image": "https://chat.openai.com/favicon.ico"
+      },
+      {
+        "name": "Bard",
+        "description": "谷歌出品，强大语言模型，可生成文本、翻译语言、写不同类型的创意内容",
+        "url": "https://gemini.google.com/",
+        "image": "https://www.google.com/favicon.ico"
+      },
+      {
+        "name": "Midjourney",
+        "description": "AI绘画工具，可根据文本描述生成各种风格的图片",
+        "url": "https://midjourney.com/",
+        "image": "https://midjourney.com/favicon.ico"
+      },
+      {
+        "name": "DALL-E 2",
+        "description": "OpenAI出品，可生成各种风格的图片",
+        "url": "https://openai.com/dall-e-2/",
+        "image": "https://openai.com/favicon.ico"
+      },
+      {
+        "name": "Notion AI",
+        "description": "Notion官方出品，可生成各种文档、笔记、思维导图等",
+        "url": "https://www.notion.so/ai",
+        "image": "https://www.notion.so/front-static/favicon.ico"
+      }
+    ]
+  },
+  {
+    "name": "AI绘画",
+    "icon": "",
+    "sites": [
+      {
+        "name": "Midjourney",
+        "description": "AI绘画工具，可根据文本描述生成各种风格的图片",
+        "url": "https://midjourney.com/",
+        "image": "https://midjourney.com/favicon.ico"
+      },
+      {
+        "name": "DALL-E 2",
+        "description": "OpenAI出品，可生成各种风格的图片",
+        "url": "https://openai.com/dall-e-2/",
+        "image": "https://openai.com/favicon.ico"
+      },
+      {
+        "name": "NightCafe Creator",
+        "description": "AI绘画工具，可根据文本描述生成各种风格的图片",
+        "url": "https://creator.nightcafe.studio/",
+        "image": "https://creator.nightcafe.studio/favicon.ico"
+      }
+    ]
+  },
+  {
+    "name": "AI写作",
+    "icon": "",
+    "sites": [
+      {
+        "name": "Notion AI",
+        "description": "Notion官方出品，可生成各种文档、笔记、思维导图等",
+        "url": "https://www.notion.so/ai",
+        "image": "https://www.notion.so/front-static/favicon.ico"
+      },
+      {
+        "name": "Wordtune",
+        "description": "AI写作助手，可润色文章，提高写作质量",
+        "url": "https://www.wordtune.com/",
+        "image": "https://assets-global.website-files.com/5f7e0f9d75fee6f6f546df46/64edbd73b743162bd24f64bc_favicon.png"
+      },
+      {
+        "name": "Grammarly",
+        "description": "AI语法检查工具，可检查语法错误",
+        "url": "https://www.grammarly.com/",
+        "image": "https://static-web.grammarly.com/cms/master/public/brand-refresh/favicon.ico"
+      },
+      {
+        "name": "QuillBot",
+        "description": "AI写作助手，可 paraphrasing 文章，提高文章原创度",
+        "url": "https://quillbot.com/",
+        "image": "https://quillbot.com/favicon.png"
+      },
+      {
+        "name": "Bard",
+        "description": "谷歌出品，强大语言模型，可生成文本、翻译语言、写不同类型的创意内容",
+        "url": "https://bard.ai/",
+        "image": "https://www.google.com/favicon.ico"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "免费，中文，可生成文本、翻译语言、写不同类型的创意内容",
+        "url": "https://chatgpt.com/",
+        "image": "https://chat.openai.com/favicon.ico"
+      },
+      {
+        "name": "Rephrase.ai",
+        "description": "提供文章改写功能，可提高文章质量",
+        "url": "https://rephrase.ai/",
+        "image": "https://assets-global.website-files.com/6307393e40826809fbf8dabe/630e059068a00ebaa278e1b3_Frame%2017529.png"
+      },
+      {
+        "name": "AI21 Labs",
+        "description": "提供各种AI工具，包括写作、绘画、音乐等",
+        "url": "https://ai21labs.com/",
+        "image": "https://assets-global.website-files.com/60fd4503684b466578c0d307/62c18dcdc46ace2977f25f01_ai21_favicon.png"
+      }
+    ]
+  }
+]

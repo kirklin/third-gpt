@@ -17,10 +17,13 @@ declare global {
 export function getClientConfig() {
   return {
   // Vercel Analytics
+
     ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL === "1",
+
     VERCEL_DEBUG: process.env.NEXT_PUBLIC_VERCEL_DEBUG === "1",
 
     // developer debug mode
+
     DEBUG_MODE: process.env.NEXT_PUBLIC_DEVELOPER_DEBUG === "1",
   };
 }

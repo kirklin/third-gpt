@@ -7,7 +7,6 @@ import { getClientConfig } from "~/config/client";
 
 const { VERCEL_DEBUG } = getClientConfig();
 
-// eslint-disable-next-line react/display-name
 const VercelAnalytics = memo(() => <Analytics debug={VERCEL_DEBUG} />);
 
 export default VercelAnalytics;

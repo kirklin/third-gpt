@@ -12,16 +12,20 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/next-js": "^2.2.0",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@kirklin/logger": "^0.0.2",
     "@kirklin/reset-css": "^0.0.4",
+    "detect-mobile": "^0.0.0",
     "framer-motion": "^11.0.3",
     "next": "14.1.0",
     "react": "^18",
+    "react-custom-scrollbars-2": "^4.5.0",
     "react-dom": "^18",
+    "react-icons": "^5.0.1",
     "unocss-preset-chinese": "^0.3.2",
     "unocss-preset-ease": "^0.0.3"
   },
@@ -31,13 +35,15 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@unocss/postcss": "latest",
+    "@unocss/webpack": "^0.58.5",
     "@vercel/analytics": "^1.1.3",
     "eslint": "^8",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
     "typescript": "^5",
-    "unocss": "latest",
+    "unocss": "^0.58.5",
     "vitest": "^1.2.2"
   }
 }
