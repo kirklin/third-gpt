@@ -93,7 +93,16 @@ function initDBOperations(db: IDBDatabase): IDBOperations {
 // 获取数据库实例
 export function getDatabase(version = 1): Promise<IDBOperations> {
   return new Promise<IDBOperations>((resolve, reject) => {
-    const request = window.indexedDB.open(dbName, version);
+    let indexedDB = null;
+
+    if (typeof window !== "undefined") {
+      indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+    }
+
+    if (!indexedDB) {
+      return;
+    }
+    const request = indexedDB.open(dbName, version);
 
     request.onerror = () => {
       // eslint-disable-next-line prefer-promise-reject-errors
