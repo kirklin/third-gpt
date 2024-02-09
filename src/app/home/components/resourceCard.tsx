@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useContext, useRef } from "react";
-import { Box, Checkbox, Image, Text } from "@chakra-ui/react";
+import { Box, Checkbox, Text } from "@chakra-ui/react";
 import { logger } from "@kirklin/logger";
 import { H3, RounderBox } from "./primitives";
 import type { Site } from "~/services";
@@ -124,18 +124,14 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
       {
                 hasDeleteBtn
                   ? (
-                    <Image
-                      src="./delete.svg"
+                    <button
+                      className="i-tabler:trash"
                       height="1.5rem"
-                      pos="absolute"
-                      right="0.7rem"
-                      top="0.7rem"
                       onClick={(event) => {
                         event.stopPropagation();
                         deleteFromMyCollection();
                       }}
                       title="删除"
-                      cursor="default"
                     />
                     )
                   : <></>

@@ -17,6 +17,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@iconify/json": "^2.2.181",
     "@kirklin/logger": "^0.0.2",
     "@kirklin/reset-css": "^0.0.4",
     "detect-mobile": "^0.0.0",
