@@ -106,15 +106,12 @@ function Content() {
             top="10px"
           >
             <button
-              className="i-ant-design:import-outlined"
-              cursor="pointer"
+              className="i-ant-design:import-outlined cursor-pointer"
               title="导入"
               onClick={importMyCollection}
             />
             <button
-              src="./export.svg"
-              className="i-pajamas:export"
-              cursor="pointer"
+              className="i-pajamas:export cursor-pointer"
               title="导出"
               onClick={exportMyCollectionToLocal}
             />

@@ -96,7 +96,7 @@ export function getDatabase(version = 1): Promise<IDBOperations> {
     let indexedDB = null;
 
     if (typeof window !== "undefined") {
-      indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+      indexedDB = window.indexedDB;
     }
 
     if (!indexedDB) {

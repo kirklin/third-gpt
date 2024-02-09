@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col flex-1 h-full w-full">
         <header className="">
-          <Navbar secondary={false} fixed={false} onOpen={false} />
+          <Navbar />
         </header>
         <div className="block flex-1 h-full overflow-x-hidden rounded-2xl pl-0 pr-5 pt-0 pb-6">
           <div className="min-h-full h-full w-full rounded-2xl common-bg p-4 bg-gray-100">

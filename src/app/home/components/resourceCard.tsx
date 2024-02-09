@@ -126,7 +126,6 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
                   ? (
                     <button
                       className="i-tabler:trash"
-                      height="1.5rem"
                       onClick={(event) => {
                         event.stopPropagation();
                         deleteFromMyCollection();

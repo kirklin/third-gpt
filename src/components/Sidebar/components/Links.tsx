@@ -51,7 +51,7 @@ export function SidebarLinks(props: {
         index: number,
       ) => {
         return (
-          <span key={index} cursor="pointer" onClick={clickHandle}>
+          <span key={index} className="cursor-pointer" onClick={clickHandle}>
             <Box>
               <HStack
                 spacing={activeRoute(categorie.name) ? "22px" : "26px"}
